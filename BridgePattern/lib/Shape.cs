@@ -2,7 +2,7 @@
 
 public abstract class Shape
 {
-    protected Renderer Renderer;
+    protected readonly Renderer Renderer;
     
     protected Shape(Renderer renderer)
     {
