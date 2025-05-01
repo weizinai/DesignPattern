@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{3B954654-1984-4F7C-B6CF-84F891810FE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-FactoryMethodPattern", "01-FactoryMethodPattern", "{32AC3594-615F-45F8-9B12-4312D7F79DFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-AbstractFactoryPattern", "02-AbstractFactoryPattern", "{B8932395-0EE2-492C-AB5D-3D84CCDFB2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{66A8E60B-E765-45D3-B578-9D4D9A7D4AAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{A42DEB3F-EB47-4415-AB0D-5FC9B45E31AD}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-BuilderPattern", "03-BuilderPattern", "{BA6812DC-B289-44CF-B331-F66C094BA028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{D1FB380C-BBB2-4626-B8FE-7217F7689CD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-PrototypePattern", "04-PrototypePattern", "{938B3083-4DB5-409F-89A9-1DDE4E0565A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{28FA5F97-FB0A-410E-B38E-2F2D59432942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B954654-1984-4F7C-B6CF-84F891810FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B954654-1984-4F7C-B6CF-84F891810FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B954654-1984-4F7C-B6CF-84F891810FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B954654-1984-4F7C-B6CF-84F891810FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A8E60B-E765-45D3-B578-9D4D9A7D4AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A8E60B-E765-45D3-B578-9D4D9A7D4AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A8E60B-E765-45D3-B578-9D4D9A7D4AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A8E60B-E765-45D3-B578-9D4D9A7D4AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FB380C-BBB2-4626-B8FE-7217F7689CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FB380C-BBB2-4626-B8FE-7217F7689CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FB380C-BBB2-4626-B8FE-7217F7689CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FB380C-BBB2-4626-B8FE-7217F7689CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FA5F97-FB0A-410E-B38E-2F2D59432942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FA5F97-FB0A-410E-B38E-2F2D59432942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FA5F97-FB0A-410E-B38E-2F2D59432942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FA5F97-FB0A-410E-B38E-2F2D59432942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B954654-1984-4F7C-B6CF-84F891810FE6} = {B8932395-0EE2-492C-AB5D-3D84CCDFB2CE}
+		{66A8E60B-E765-45D3-B578-9D4D9A7D4AAE} = {32AC3594-615F-45F8-9B12-4312D7F79DFE}
+		{D1FB380C-BBB2-4626-B8FE-7217F7689CD0} = {BA6812DC-B289-44CF-B331-F66C094BA028}
+		{28FA5F97-FB0A-410E-B38E-2F2D59432942} = {938B3083-4DB5-409F-89A9-1DDE4E0565A6}
+	EndGlobalSection
+EndGlobal
