@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.DecoratorPattern.lib;
+﻿using System;
+
+namespace DesignPattern.DecoratorPattern.lib;
 
 public class BasicCharacter : Character
 {

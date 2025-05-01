@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.CompositePattern.lib;
+﻿using System.Collections.Generic;
+
+namespace DesignPattern.CompositePattern.lib;
 
 public class GameObject
 {

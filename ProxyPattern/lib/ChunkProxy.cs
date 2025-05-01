@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.ProxyPattern.lib;
+﻿using System;
+
+namespace DesignPattern.ProxyPattern.lib;
 
 public class ChunkProxy : IChunk
 {

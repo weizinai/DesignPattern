@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.FlyweightPattern.lib;
+﻿using System.Collections.Generic;
+
+namespace DesignPattern.FlyweightPattern.lib;
 
 public class BulletFactory
 {

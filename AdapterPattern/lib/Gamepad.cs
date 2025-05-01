@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.AdapterPattern.lib;
+﻿using System;
+
+namespace DesignPattern.AdapterPattern.lib;
 
 public class Gamepad
 {

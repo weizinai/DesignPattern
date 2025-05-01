@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.CompositePattern.lib;
+﻿using System;
+
+namespace DesignPattern.CompositePattern.lib;
 
 public class Sprite : GameObject
 {

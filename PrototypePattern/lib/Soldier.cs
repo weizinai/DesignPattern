@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.PrototypePattern.lib;
+﻿using System;
+
+namespace DesignPattern.PrototypePattern.lib;
 
 public class Soldier : Prototype
 {

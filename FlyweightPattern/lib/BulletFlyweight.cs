@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.FlyweightPattern.lib;
+﻿using System;
+
+namespace DesignPattern.FlyweightPattern.lib;
 
 public class BulletFlyweight
 {

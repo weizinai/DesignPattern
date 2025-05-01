@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.SingletonPattern.lib;
+﻿using System;
+
+namespace DesignPattern.SingletonPattern.lib;
 
 public class Singleton
 {

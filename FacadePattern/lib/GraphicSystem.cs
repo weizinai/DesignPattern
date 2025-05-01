@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.FacadePattern.lib;
+﻿using System;
+
+namespace DesignPattern.FacadePattern.lib;
 
 public class GraphicSystem
 {

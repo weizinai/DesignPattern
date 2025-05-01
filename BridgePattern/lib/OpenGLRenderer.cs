@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.BridgePattern.lib;
+﻿using System;
+
+namespace DesignPattern.BridgePattern.lib;
 
 public class OpenGLRenderer : Renderer
 {
