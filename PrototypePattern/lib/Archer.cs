@@ -1,6 +1,6 @@
 ﻿namespace DesignPattern.PrototypePattern.lib;
 
-public class Archer : IPrototype
+public class Archer : Prototype
 {
     private readonly string type;
     private readonly int health;
@@ -17,12 +17,12 @@ public class Archer : IPrototype
 
     private Archer(Archer other) : this(other.type, other.health, other.attack, other.defense) { }
 
-    public IPrototype Clone()
+    public override Prototype Clone()
     {
         return new Archer(this);
     }
 
-    public void ShowInfo()
+    public override void ShowInfo()
     {
         var description = $"Archer Type: {this.type}\n" +
                           $"Health: {this.health}\n" +

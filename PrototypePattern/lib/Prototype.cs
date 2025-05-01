@@ -1,8 +1,8 @@
 ﻿namespace DesignPattern.PrototypePattern.lib;
 
-public interface IPrototype
+public abstract class Prototype
 {
-    public IPrototype Clone();
+    public abstract Prototype Clone();
     
-    public void ShowInfo();
+    public abstract void ShowInfo();
 }

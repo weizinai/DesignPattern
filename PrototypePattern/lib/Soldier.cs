@@ -1,6 +1,6 @@
 ﻿namespace DesignPattern.PrototypePattern.lib;
 
-public class Soldier : IPrototype
+public class Soldier : Prototype
 {
     private readonly string type;
     private readonly int health;
@@ -17,12 +17,12 @@ public class Soldier : IPrototype
 
     private Soldier(Soldier other) : this(other.type, other.health, other.attack, other.defense) { }
 
-    public IPrototype Clone()
+    public override Prototype Clone()
     {
         return new Soldier(this);
     }
 
-    public void ShowInfo()
+    public override void ShowInfo()
     {
         var description = $"Soldier Type: {this.type}\n" +
                           $"Health: {this.health}\n" +
