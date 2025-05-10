@@ -14,11 +14,7 @@ public class Program
         levelCheck.SetNext(itemCheck);
         itemCheck.SetNext(preQuestCheck);
 
-        var request = new TaskValidationRequest
-        {
-            PlayerLevel = 15,
-            HasRequiredItem = true
-        };
+        var request = new TaskValidationRequest(15, true);
 
         levelCheck.HandleRequest(request);
 

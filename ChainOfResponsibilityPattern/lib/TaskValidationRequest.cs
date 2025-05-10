@@ -2,8 +2,15 @@
 
 public class TaskValidationRequest
 {
-    public int PlayerLevel = 15;
-    public bool HasRequiredItem = false;
-    public bool IsPreQuestCompleted = false;
+    public readonly int PlayerLevel;
+    public readonly bool HasRequiredItem;
+    public readonly bool IsPreQuestCompleted;
     public string ErrorMessage = "";
+    
+    public TaskValidationRequest(int playerLevel = 15, bool hasRequiredItem = false, bool isPreQuestCompleted = false)
+    {
+        this.PlayerLevel = playerLevel;
+        this.HasRequiredItem = hasRequiredItem;
+        this.IsPreQuestCompleted = isPreQuestCompleted;
+    }
 }
