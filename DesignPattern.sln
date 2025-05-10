@@ -29,17 +29,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Singlet
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-AdapterPattern", "06-AdapterPattern", "{3708380B-16B1-4892-B810-849BDF485F0E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-BridgePattern", "06-BridgePattern", "{C0217783-D106-423B-BC0C-E71261026A64}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-BridgePattern", "07-BridgePattern", "{C0217783-D106-423B-BC0C-E71261026A64}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-CompositePattern", "07-CompositePattern", "{23B74A29-6EE5-416C-81C7-75FF5037424F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-CompositePattern", "08-CompositePattern", "{23B74A29-6EE5-416C-81C7-75FF5037424F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-DecoratorPattern", "08-DecoratorPattern", "{192FEF1B-4F9B-4D76-BD3A-9DEB6F19C1C5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-DecoratorPattern", "09-DecoratorPattern", "{192FEF1B-4F9B-4D76-BD3A-9DEB6F19C1C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-FacadePattern", "09-FacadePattern", "{152E8E34-F35C-4D07-941A-B693D701EE7F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-FacadePattern", "10-FacadePattern", "{152E8E34-F35C-4D07-941A-B693D701EE7F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-FlyweightPattern", "09-FlyweightPattern", "{38D0DE79-D928-4632-B35E-9FA6174FE4AB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-FlyweightPattern", "11-FlyweightPattern", "{38D0DE79-D928-4632-B35E-9FA6174FE4AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-ProxyPattern", "10-ProxyPattern", "{FDB9B238-A91C-4195-B2CD-7C6DBD7F8179}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-ProxyPattern", "12-ProxyPattern", "{FDB9B238-A91C-4195-B2CD-7C6DBD7F8179}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{C43FB09B-B127-48D6-B773-6660B8ECC58C}"
 EndProject
@@ -55,23 +55,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "Flyweig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{AE71AC4E-DD20-4F66-8CBE-CB03C074C072}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-ChainOfResponsibilityPattern", "11-ChainOfResponsibilityPattern", "{1B188A3A-461E-456E-872E-3C12B285BC08}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-ChainOfResponsibilityPattern", "13-ChainOfResponsibilityPattern", "{1B188A3A-461E-456E-872E-3C12B285BC08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{B9C89CB3-C07B-40C7-BA91-351094738F82}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-CommandPattern", "12-CommandPattern", "{063A759A-E6F4-443E-A16C-CAED04E12057}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-CommandPattern", "14-CommandPattern", "{063A759A-E6F4-443E-A16C-CAED04E12057}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{8540D08F-1A74-4E49-9FB6-BF077ED45E95}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-IteratorPattern", "13-IteratorPattern", "{A4BA7436-083F-470A-94D5-BA2D55E2CC15}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15-IteratorPattern", "15-IteratorPattern", "{A4BA7436-083F-470A-94D5-BA2D55E2CC15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{3A2C924A-A429-4D23-A905-812A947EAD38}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-MediatorPattern", "14-MediatorPattern", "{F77DBC93-3714-4A17-83FB-DD922AA622F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-MediatorPattern", "16-MediatorPattern", "{F77DBC93-3714-4A17-83FB-DD922AA622F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{BFB0939C-797D-4BCD-B9E8-8042F3141431}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15-MementoPattern", "15-MementoPattern", "{CDD88701-2A95-4A15-91F7-74FC3A3A88CE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17-MementoPattern", "17-MementoPattern", "{CDD88701-2A95-4A15-91F7-74FC3A3A88CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{29BFE174-77D3-4311-B259-FD1ACB086BD7}"
 EndProject
